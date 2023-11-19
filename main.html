@@ -1,0 +1,106 @@
+<html> 
+	<head> 
+	<link rel="stylesheet" href="coverflow.css" /> 
+
+	<link rel="stylesheet" href="style.css" /> 
+	<link rel="stylesheet" href="scroll.js">
+
+
+
+	<script src="sly.min.js"></script> 
+	<script src="coverflow.js"></script>
+
+	<meta name="viewport" content="width=device-width" /> 
+
+    <!-- Link the AOS library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.css">
+	
+	</head> 
+	
+	
+	<body> 
+	<div class="wrap" id="coverflow1"> 
+	
+	<div class="scrollbar"> 
+	<div class="handle"> 
+	<div class="mousearea"></div> 
+	</div> 
+	</div> 
+	
+	<div class="frame coverflow"> 
+	<ul class="clearfix"> 
+	<li>Holder</li> 
+	</ul> 
+	</div> 
+	
+	<ul class="pages"></ul> 
+	
+	</div> 
+	
+	<div> 
+	<img src= "images/Apple-Logo-600x400.png.webp">
+    <p></p><br><br><p><br> 
+
+  
+		<div class="scroll-container">
+			<!-- Insert the img elements that you want to display in the banner -->
+			<img src="images/IMG_20230823_123853.jpg" data-aos="fade-down" alt="Car 3">
+			<img src= "images/IMG_20230606_182050.jpg" data-aos="zoom-in" alt="Car 4">
+			<img src= "images/IMG_20230709_204615.jpg" data-aos="zoom-out" alt="Car 5">
+			<img src="images/IMG-20200914-WA0018.jpg" data-aos="flip-left" alt="Car 6">
+
+			<button onclick="scrollLeft()">Left</button>
+			<button onclick="scrollRight()">Right</button>
+			
+
+		  </div>
+
+  
+  
+
+	<hr style="width: 1000px;"> 
+	<a href= "autobazzar.html">Home</a> | <a href= "aboutus.html">About me</a> | <a href= "finddealer.html"> contact </a> | <hr style="width: 1000px;"> 
+	<h1> MEMORIES IN 2020 </h1> 
+	<p> 
+	<UL class="navbar"> 
+	<li><a href="home.html">Home</a></li> 
+	<li><a href="aboutus.html">About me</a></li> 
+	<li><a href="finddealer.html">contact</a></li> 
+	</UL> 
+	<table border ="5"> 
+	<tr>
+    <!-- Delete the empty td element -->
+    <td><img src="images/IMG-20200914-WA0018.jpg" data-aos="fade-right"></td>
+    <td><img src="images/Apple-Logo-600x400.png.webp" data-aos="fade-left"></td> 
+
+	<td><img src= "images/IMG_20230518_142127.jpg" data-aos="fade-right"></td></tr> 
+
+	<tr>
+    <!-- Use colspan to span across two columns -->
+    
+    <td><img src="images/IMG_20230823_123853.jpg" data-aos="fade-down"></td>
+	</tr> 
+	<tr>
+    <!-- Use rowspan to span across two rows -->
+    <td><img src= "images/IMG_20230606_182050.jpg" data-aos="zoom-in"></td>
+    <td><img src= "images/IMG_20230709_204615.jpg" data-aos="zoom-out"></td>
+    <td rowspan="2"><img src="images/IMG-20200914-WA0018.jpg" data-aos="flip-left"></td></tr> 
+
+	<tr>
+    <td>The Ford Mustang 500 price 18340 usd CIF Mombasa</td> 
+	<td>The BMW M3 Convertible 2009 model price 20110 usd CIF Mombasa </td> 
+	</tr> 
+	</table> 
+	<p> 
+	our offices are at the juction towards Hardy Police Station 
+	</p>
+	</div> 
+    </body>
+
+    <!-- Initialize the AOS library -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2/dist/aos.js">
+    </script>
+    <script>
+      AOS.init();
+    </script>
+</html>
