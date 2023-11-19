@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  .navbar {
+    display: flex; /* Use flexbox layout */
+    list-style: none; /* Remove the default list style */
+    padding: 10px; /* Add some padding */
+    justify-content: center; /* Center the items */
+    /* Add a gradient background */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  /* Style the links in the navbar */
+  .navbar a {
+    color: red; 
+    text-decoration: none;
+    margin: 0 10px; 
+ 
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+  }
+  
+  /* Add a hover effect to the links in the navbar */
+  .navbar a:hover {
+    /* Change the background color to the opposite hue */
+    background-color: hsl(calc(180 + var(--hue)), 100%, 50%);
+    padding: 5px; /* Add some padding */
+  }
+  /* Style the scroll-container class */
+.scroll-container {
+  width: 1000px; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Make the scrolling snap to each image */
+}
